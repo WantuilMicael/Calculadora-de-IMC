@@ -31,13 +31,13 @@ export default function App(){
 
             <div className="area-input">
                    <input
-                   type="text"
+                   type="number"
                    placeholder="Peso em (kg) Ex: 90"
                    value={peso}
                    onChange={ (e) => setPeso(e.target.value) }
                    />
                    <input
-                   type="text"
+                   type="number"
                    placeholder="Altura em (cm) Ex: 180"
                    value={altura}
                    onChange={ (e) => setAltura(e.target.value) }
